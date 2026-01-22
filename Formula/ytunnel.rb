@@ -7,22 +7,22 @@ class Ytunnel < Formula
   on_macos do
     on_arm do
       url "https://github.com/yetidevworks/ytunnel/releases/download/v0.4.1/ytunnel-darwin-aarch64.tar.gz"
-      sha256 "26a8d5d330c96569bf20cc3f53ed9becd40b36c5af108118ee9934f86bf78bf0"
+      sha256 "488a460a7327a902b6b7a57b7af9f569ad40bbe314e94e3d26346008e817c36e"
     end
     on_intel do
       url "https://github.com/yetidevworks/ytunnel/releases/download/v0.4.1/ytunnel-darwin-x86_64.tar.gz"
-      sha256 "37c6c1af19cdb57ddf56b024c72957a038a451119f994680f5770841fe72a934"
+      sha256 "d3d6529cbed20a5d2519ddc54fe5f28c4f75c7a25c4f855bc249cf1d09b714b8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yetidevworks/ytunnel/releases/download/v0.4.1/ytunnel-linux-x86_64.tar.gz"
-      sha256 "73aba538124b5ff6512828a40ac32bc182ab7cba9d858be99ada24d7d558a874"
+      sha256 "4fb4a238aea2835edb430c648d9afa6759330b257e3382bf23c37fd610f83aff"
     end
     on_arm do
       url "https://github.com/yetidevworks/ytunnel/releases/download/v0.4.1/ytunnel-linux-aarch64.tar.gz"
-      sha256 "6b4410c9e3403275f481b5806e17fe0d43d75ac97c58bba3a98421c88ac28e29"
+      sha256 "a4b8e383e0e7374d93bd528f60f9d671522c46ef68ea021cb5652806576de93a"
     end
   end
 
