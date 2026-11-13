@@ -2,27 +2,27 @@ class Ytunnel < Formula
   desc "TUI-first CLI for managing Cloudflare Tunnels with custom domains"
   homepage "https://github.com/yetidevworks/ytunnel"
   license "MIT"
-  version "1.1.0"
+  version "1.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.0/ytunnel-darwin-aarch64.tar.gz"
-      sha256 "71f05e768c557bd3702268f274df651aed77669f46dcf63173c4aa5d18a90cd1"
+      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.1/ytunnel-darwin-aarch64.tar.gz"
+      sha256 "38cb31b74a89d5ea423b6784bf1053407dab71d9b53da2b9d6754074c3e7a817"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.0/ytunnel-darwin-x86_64.tar.gz"
-      sha256 "4aee6b4b7a34668482534f58aa4f8121d2a577434bbf867f58d6b467b628ff57"
+      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.1/ytunnel-darwin-x86_64.tar.gz"
+      sha256 "846e45782eb5f070601c658e0b8dd4ee0b0f9f4ab5eb42b451ab38195c1a6a5f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.0/ytunnel-linux-x86_64.tar.gz"
-      sha256 "8762116979842475b3271c8f864cd1b0b5c2d9590511ebb99f003d2b854de62f"
+      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.1/ytunnel-linux-x86_64.tar.gz"
+      sha256 "db70757c6ad1a281c17a3f979e8be368f681a6f3170201e77b5aeb82aaec264e"
     end
     on_arm do
-      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.0/ytunnel-linux-aarch64.tar.gz"
-      sha256 "aace60f5101e866af0882b71de3468e6503d15e084703b8a80fe2e08b2a2f7c4"
+      url "https://github.com/yetidevworks/ytunnel/releases/download/v1.1.1/ytunnel-linux-aarch64.tar.gz"
+      sha256 "caae8f7d8072e33964b9784d3906c8d7343ac8eeda7ddbde5baf62247ff67f8e"
     end
   end
 
